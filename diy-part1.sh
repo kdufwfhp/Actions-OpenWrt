@@ -18,6 +18,6 @@
 sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' feeds.conf.default
 # git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 # git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
-git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
