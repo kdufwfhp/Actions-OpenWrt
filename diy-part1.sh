@@ -14,7 +14,7 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter' feeds.conf.default
 # git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 # git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
